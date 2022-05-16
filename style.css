@@ -1,0 +1,15 @@
+.bg-main-img {
+  background-image: url('bg-img.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+}
+
+.card {
+  background-color: rgba(0, 0, 255, 0.277);
+}
+
+.card-light {
+  background-color: rgba(57, 57, 248, 0.567);
+  border: 2px yellow;
+}
