@@ -3,7 +3,8 @@ let homeScore = 0
 let awayScore = 0
 let playerName = ""
 
-function reset() {
+function reset(event) {
+event.preventDefault()
 homeScore = 0
 awayScore = 0
 console.log('score reset')
